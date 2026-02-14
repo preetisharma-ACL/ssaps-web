@@ -13615,9 +13615,8 @@ body .mfp-wrap .mfp-container .mfp-content .mfp-close:hover::after {
   width: 100%;
 }
 
-/* 
-.tes-img img {
-  height: 400px;
-} */
+.contact-link {
+  color: #333;
+}
 
 /*# sourceMappingURL=main.css.map */
