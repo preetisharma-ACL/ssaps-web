@@ -67,7 +67,7 @@
                             <div class="header-logo logo-img">
                                 <a href="index.html"><img
                                         src="assets/img/logo/logo-1.png"
-                                        alt></a>
+                                        alt="ssaps-logo"></a>
                             </div>
                             <div
                                 class="main-menu__wrap ul_li navbar navbar-expand-lg">
@@ -102,7 +102,7 @@
                                                 <a href="index.html"
                                                     rel="home"><img
                                                         src="assets/img/logo/logo-1.png"
-                                                        alt></a></div>
+                                                        alt="ssaps-logo"></a></div>
                                             <nav class="xb-header-nav">
                                                 <ul
                                                     class="xb-menu-primary clearfix">
@@ -214,7 +214,7 @@
                                             Contact Us
                                             <span><img
                                                     src="assets/img/icon/learning.png"
-                                                    alt></span>
+                                                    alt="ssaps-icon"></span>
                                         </a>
                                     </div>
                                 </div>
@@ -802,7 +802,8 @@
                                     <div class="iu-notice-item">
                                         <a
                                             href="assets/img/ssaps/Student-List-B-Ed-2022-23.pdf"
-                                            download target="blank"
+                                            target="_blank"
+                                            rel="noopener noreferrer"
                                             class="d-flex">
                                             <span
                                                 class="iu-download-icon"><i
@@ -818,7 +819,9 @@
                                     <div class="iu-notice-item">
                                         <a
                                             href="assets/img/ssaps/Student-List-B-Ed-2021-22.pdf"
-                                            download class="d-flex"><span
+                                            target="_blank"
+                                            rel="noopener noreferrer"
+                                            class="d-flex"><span
                                                 class="iu-download-icon"><i
                                                     class="bi bi-download"></i></span>
                                             <h6>B. Ed 2021-22</h6>
@@ -833,7 +836,9 @@
                                         class="iu-notice-item ">
                                         <a
                                             href="assets/img/ssaps/Student-List-D-El-Ed-2022-23.pdf"
-                                            download class="d-flex"><span
+                                            target="_blank"
+                                            rel="noopener noreferrer"
+                                            class="d-flex"><span
                                                 class="iu-download-icon"><i
                                                     class="bi bi-download"></i></span>
                                             <h6>D. El Ed 2022-23</h6>
@@ -848,7 +853,9 @@
                                         class="iu-notice-item mb-0 border-0 pb-0">
                                         <a
                                             href="assets/img/ssaps/Student-List-D-El-Ed-2021-22.pdf"
-                                            download class="d-flex"><span
+                                            target="_blank"
+                                            rel="noopener noreferrer"
+                                            class="d-flex"><span
                                                 class="iu-download-icon"><i
                                                     class="bi bi-download"></i></span>
                                             <h6>D. El Ed 2021-22</h6>
@@ -1821,23 +1828,12 @@
                 <div class="clg-footer-newsletter">
                     <div class="container-fluid px-50">
                         <div class="clg-footer_wrap ul_li">
+                            <img src="assets/img/logo/logo-1.png" width="120"
+                                alt="ssaps-logo">
                             <div class="xb-item--details mt-20">
                                 <p>Siddharth Shikshan Avam Prashikshan
                                     Sansthan,
                                     Karaunda-Masina, Siddharth Nagar,</p>
-                            </div>
-                            <div class="xb-item--email mt-20">
-                                <div class="xb-input-field pos-rel">
-                                    <input type="text"
-                                        placeholder="Enter your email">
-                                    <div class="xb-img">
-                                        <img src="assets/img/icon/email.svg"
-                                            alt>
-                                    </div>
-                                    <button class="xb-field-btn"><img
-                                            src="assets/img/icon/arrow01.png"
-                                            alt></button>
-                                </div>
                             </div>
                             <div class="xb-item--meta mt-20">
                                 <p class="text-white">Email-
@@ -1845,7 +1841,8 @@
                                 <p class="text-white"> Mobile No- 9236405978</p>
                                 <ul
                                     class="xb-item--social_link ul_li mt-15">
-                                    <li><a href="#!"><i
+                                    <li><a
+                                            href="https://www.facebook.com/share/1Csp4xjuxY/"><i
                                                 class="fab fa-facebook-f"></i></a></li>
                                     <li><a href="#!"><svg width="16"
                                                 height="16"
@@ -1856,8 +1853,7 @@
                                                     d="M9.52217 6.77491L15.4785 0H14.0671L8.89516 5.88256L4.76437 0H0L6.24656 8.89547L0 16H1.41155L6.87321 9.78782L11.2356 16H16L9.52183 6.77491H9.52217ZM7.58887 8.97384L6.95596 8.08805L1.92015 1.03974H4.0882L8.15216 6.72795L8.78507 7.61374L14.0677 15.0075H11.8997L7.58887 8.97418V8.97384Z"
                                                     fill="white" />
                                             </svg></a></li>
-                                    <li><a href="#!"><i
-                                                class="fab fa-linkedin-in"></i></a></li>
+
                                     <li><a href="#!"><i
                                                 class="fab fa-instagram"></i></a></li>
                                 </ul>
@@ -1888,5 +1884,14 @@
         <script src="assets/js/jquery.nice-select.min.js"></script>
         <script src="assets/js/jquery.magnific-popup.min.js"></script>
         <script src="assets/js/main.js"></script>
+        <script>
+  window.addEventListener("load", function () {
+    setTimeout(function () {
+      const modalEl = document.getElementById("virtualTourModal");
+      const modal = new bootstrap.Modal(modalEl);
+      modal.show();
+    }, 3000);
+  });
+</script>
     </body>
 </html>
