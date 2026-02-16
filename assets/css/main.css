@@ -1978,6 +1978,11 @@ span {
   padding-right: 200px;
 }
 
+.px-50 {
+  padding-left: 60px;
+  padding-right: 60px;
+}
+
 /* typography css start */
 h1,
 h2,
@@ -12216,7 +12221,7 @@ body .mfp-wrap .mfp-container .mfp-content .mfp-close:hover::after {
 }
 
 .clg-footer_wrap .xb-item--meta {
-  margin-left: 60px;
+  margin-left: 15px;
 }
 
 @media (max-width: 767px) {
